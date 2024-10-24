@@ -1,0 +1,71 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  /* text-align: center; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em
+}
+
+body{
+  max-width: 1000px;
+  background-color: #404eed;
+  color: white;
+  margin: auto;
+  padding: 20px 30px 0 30px;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+#header img{
+  max-height: 40px;
+}
+
+#logo{
+  height: 30px;
+}
+
+#hero{
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+#hero h1,
+#hero p{
+  width: 50%;
+}
+
+p{
+  margin-bottom: 50px;
+}
+
+button{
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  margin: 20px 20px 20px 0;
+  border-radius: 100;
+}
+
+.btn-black{
+  background-color: black;
+  color: white;
+}
+
+#bgImg{
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  height: 350px;
+}
